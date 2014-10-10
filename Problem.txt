@@ -1,0 +1,15 @@
+Problems and to do
+
+1. Font change? 需要童真可爱字体，中文字体最好是用webfont因为载入速度快。 leo
+
+2. favicon doesnot show yet. It was showing before on wordpress. 要清除缓存 才能测试。leo
+
+3. 园区简介里面dropdown, 两个： 鄞州园区 北仑园区  leo
+
+4. hanlin: get the kindergarten music to youku and link it from 简介
+
+5. 营养在线是每个月的菜谱 记得是excel格式 如何呈现在网上？有没有什么小工具？hanlin
+
+6. copyright 让footer 居中 leo
+
+7. reorder of sections hanlin
