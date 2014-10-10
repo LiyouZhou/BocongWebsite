@@ -20,14 +20,15 @@
 					<h1>博聪幼儿园</h1>
 					<nav>
 				    	{% for item, subitems in menu %}
-				        <a href="{{ item }}">{{ item }}</a>
-				        	{% if subitems|length != 0 %}
+				        <a href="{{ item }}">{{ item }}
+				        	{% if subitems|length != 0 -%}
 							<ul class='subitems'>
 								{% for subitem in subitems %}
 								<li>{{subitem}}</li>
 								{% endfor %}
 							</ul>
-							{% endif %}
+							{%- endif %}
+						</a>
 				    	{% endfor %}
 					</nav>
 				</div>

@@ -7,7 +7,7 @@ import codecs
 menu = []
 with codecs.open('Structure.txt', 'r', encoding='utf-8') as fd:
 	for line in fd:
-		if line.strip() is not '':
+		if line.strip() != '':
 			if line.startswith('\t') or line.startswith(' '):
 				menu[-1][1].append( line.strip() )
 			else: menu.append( (line.strip(), []) )
