@@ -165,7 +165,7 @@
     top: 90px;
 }
 
-p, h1, a {
+* {
 	font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
 }
 
@@ -177,4 +177,12 @@ p, h1, a {
 
 .subitems li {
 	list-style-type: none;
+}
+
+.STYLE2 {font-family: "宋体"}
+
+
+#slideshow {
+	height:500px;
+	position:relative;
 }
