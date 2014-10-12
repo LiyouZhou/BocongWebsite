@@ -1,189 +1,160 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head profile="http://gmpg.org/xfn/11">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <head profile="http://gmpg.org/xfn/11">
+        <link href='http://www.youziku.com/webfont/CSS/dc8eb7f6e62c0fa424fce0bf7c91260f' rel='stylesheet' type='text/css'/>
+        <meta charset="UTF-8">
+        <meta name="description" content="欢迎来到博聪园!">
+        <meta name="keywords" content="博聪幼儿园, 博聪, 宁波, 幼儿园, 北仑">
+        <meta name="author" content="博聪园网站">
+        <meta name="Copyright" content="HanlinDesign">
+        <meta name="distribution" content="Global">
+        <meta name="doc-type" content="Public">
+        <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+        <meta name="language" content="zh-cmn">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>博聪园</title>
+        <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'>
+        <link rel='Bookmark' href='favicon.ico'>
+        <link rel="stylesheet" type="text/css" href="css/default.css">
+        <link rel="stylesheet" type="text/css" href="css/component.css">
+        <script src="js/modernizr.custom.js"></script>
+        <script type="text/javascript"  src='https://code.jquery.com/jquery-1.11.1.min.js'></script>
+        <style type="text/css">
+            .STYLE2 {font-family: "宋体"}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="cbp-af-header">
+                <div class="cbp-af-inner">
+                    <h1>
+                        <span class="helper"></span>
+                        <img src="logo_green.png" id='logo' longdesc="http://www.nbbocong.com">
+                        博聪园
+                    </h1>
+                    <nav>
+                        <a href="园区简介">园区简介</a>
+                        <ul class='subitems'>
+                            <li><a href='#'>办园历程</a></li>
+                            <li><a href='#'>教师风采</a></li>
+                            <li><a href='#'>保教特色</a></li>
+                        </ul>
+                        <a href="新闻动态">新闻动态</a>
+                        <a href="#home_gallery">活动掠影</a>
+                        <a href="通知公告">学期安排</a>
+                        <a href="营养在线">营养在线</a>
+                        <a href="#contacts">联系我们</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="main">
+                                <section id="home_gallery">
+                    <script type="text/javascript" >
+                        /* home slide show */
 
-	<style type="text/css">
-<!--
-.STYLE2 {font-family: "宋体"}
--->
-    </style>
-<head>
-		<link href='http://www.youziku.com/webfont/CSS/dc8eb7f6e62c0fa424fce0bf7c91260f' rel='stylesheet' type='text/css'/>
-		<meta charset="UTF-8" />
-		<meta name="description" content="欢迎来到博聪园!">
-		<meta name="keywords" content="博聪幼儿园, 博聪, 宁波, 幼儿园, 北仑">
-		<meta name="author" content="博聪园网站">
-		<meta name="Copyright" content="HanlinDesign">
-		<meta name="distribution" content="Global">
-		<meta name="doc-type" content="Public">
-		<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
-		<meta name="language" content="zh-cmn">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<title>博聪园</title>
-		<link rel=”shortcut icon” href=”favicon.ico” type=”image/x-icon” />
-		<link rel=”Bookmark” href=”favicon.ico” />
-		<link rel="stylesheet" type="text/css" href="css/default.css" />
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<script src="js/modernizr.custom.js"></script>
-		<script type="text/javascript"  src='https://code.jquery.com/jquery-1.11.1.min.js'></script>
-	</head>
-	<body>
-		<div class="container">
-			<div class="cbp-af-header">
-				<div class="cbp-af-inner">
-					<h1 style="font-family:TianZhen72492;">博聪园 </h1> 
-					<img src="logo_green.png" width="100" height="100" border="0" align="baseline" longdesc="http://www.nbbocong.com">					
-					
-				        <nav>				    	
-				        <a href="园区简介">园区简介</a>		    	
-						<a href="新闻动态">新闻动态</a>
-				        <a href="#home_gallery">活动掠影</a>
-				        <a href="通知公告"> 学期安排</a>
-				        <a href="营养在线">营养在线</a>
-				        <a href="#contacts">联系我们</a>
-						</nav>
-			   </div>
-			</div>
+                            var slide_pos = 0;
+                            var slide_len = 0;
 
-			<header class="clearfix">
-			  <h1>欢迎来到博聪园！</h1>
+                            $(document).ready(function() {
 
-		  </header>	
-			<div class="main">
-				<section>
-					<div><p>(需要改动）宁波市北仑区博聪幼儿园成立于2006年9月，是一所自收自支、自负盈亏的民办幼儿园。全园占地4660平方米，建筑总面积3050平方米。园内各项投入按省一级标准装饰、配备。总投资600万元，其中房屋420万元，整体室内外装修120万元，购置设施设备60万元。园内设有多功能厅、科常室、美术室、幼儿图书室、幼儿浴室以及游泳池、玩沙池、动植物园地、现浇彩色塑胶地垫等现代化办园设施设备等。现有13个班级共360名幼儿，园内共有教职员工52人，专职教师持证率达到100%，是一支队伍稳定、团结向上、充满活力、富有潜质、能吃苦耐劳的优良师资队伍。我们以&#8220;为人诚实、工作踏实，教风朴实、成效卓实&#8221;的四实园训来做好各项保教工作，以&#8220;博学聪颖、强身健体&#8221;办园总目标为努力方向，在上级领导的关心支持下，在全体教职工的共同努力下，我园以灵活多样的入托形式、规范管理的保教质量、踏实严谨的朴实教风受到了家长的称赞、同行的瞩目和社会的关注。&nbsp; </p>
-					</div>
-				</section>
-				
-				<section id="home_gallery">
-			
-				<script type="text/javascript" >
-					
-					/* home slide show */
+                            slide_len = $(".slideshow_item").size() - 1;
 
-						var slide_pos = 0;
-						var slide_len = 0;
+                            $(".slideshow_item:gt(0)").hide();
 
-						$(document).ready(function() {
+                            slide_int = setInterval(function() {
 
-    					slide_len = $(".slideshow_item").size() - 1;
-					
-						$(".slideshow_item:gt(0)").hide();
-					
-						slide_int = setInterval(function() {
-					
-							slide_cur = $(".slideshow_item:eq(" + slide_pos + ")");
-							slide_cur.fadeOut(2000);
-					
-							slide_pos = (slide_pos == slide_len ? 0 : (slide_pos + 1));
-					
-							slide_cur = $(".slideshow_item:eq(" + slide_pos + ")");
-							slide_cur.fadeIn(2000);
-					
-						}, 5000);
-					
-					});
-				 </script>
-				 
-				 	
-					<div id="slideshow" style="width:100%; height:470px; position:relative" align="center"> 
-					
-					
-    						<ul style="">
-        
-        							<li class="slideshow_item">
-            
-            						<img src="banner/01.jpg" alt="亲子室内活动" /> 
-            
-        							</li>
-        
-        							<li class="slideshow_item">
-            
-            						<img src="banner/02.jpg" alt="亲子运动会" /> 
-            
-        							</li>
-        
-        							<li class="slideshow_item">
-            
-            						<img src="banner/03.jpg" alt="毕业啦" />
-            
-        							</li>
-        
-        							<li class="slideshow_item">
-            
-            						<img src="banner/04.jpg" alt="舞蹈演出" /> 
-            
-        							</li>
-        
-    					</ul> 
-    
-					</div> 							
-				</section>
-				
-				<section id="contacts">
-					<div>
-					  <h2><strong><font color="#4868b0" size="5">联系我们</font></strong></h2>
-					  <p>鄞州园区</p>
-					  <table width="859" height="258" border="0" align="center">
-                        <tr>
-                          <td width="300" rowspan="2"><img src="images/shiqi_contact.jpg" width="300" height="191" /></td>
-                          <td width="370"><a href="http://api.map.baidu.com/geocoder?address=博聪幼儿园&amp;output=html"><img src="images/pin.png" width="58" height="57" border="0" ></a><span class="STYLE2"> 浙江省宁波市鄞州区雅戈尔大道599号</span></td>
-                        </tr>
-                        <tr>
-                          <td height="92">电话：</td>
-                        </tr>
-                      </table>
-					  <p>北仑园区</p>
+                                slide_cur = $(".slideshow_item:eq(" + slide_pos + ")");
+                                slide_cur.fadeOut(2000);
 
-					   <table width="859" height="258" border="0" align="center">
-                        <tr>
-                          <td width="300" rowspan="2"><img src="images/shiqi_contact.jpg" width="300" height="191" /></td>
-                          <td width="370"><a href="http://api.map.baidu.com/geocoder?address=庐山东路1098号&amp;output=html"><img src="images/pin.png" width="58" height="57" border="0" ></a><span class="STYLE2">浙江省宁波市北仑区新契庐山东路1098号</span></td>
-                        </tr>
-                        <tr>
-                          <td height="92">电话：</td>
-                        </tr>
-                      </table>
-					 
-					</div>
-				</section>
-				<section>
-					<div>
-					  <p>鄞州园区 简介 </p>
-					</div>
-				</section>
-				<section>
-					<div>
-					  <p>鄞州园长</p>
-					</div>
-				</section>
-				<section>
-					<div>
-					  <p>北仑园区简介</p>
-					</div>
-				</section>
-				<section>
-					<div>
-					  <p>北仑院长</p>
-					</div>
-				</section>
-				<section>
-					<div><p>90's banh mi small batch helvetica authentic, vegan wayfarers vinyl meh hashtag. Pickled Tonx keffiyeh flannel gastropub, locavore salvia art party literally try-hard blog. High Life seitan banh mi Neutra, leggings swag you probably haven't heard of them pug bicycle rights pour-over retro fixie wayfarers Echo Park. Tofu vinyl pork belly, seitan kale chips bitters fingerstache put a bird on it butcher church-key occupy aesthetic DIY yr. Banjo dreamcatcher tumblr, actually Carles typewriter roof party. Pug thundercats DIY, 90's chambray gastropub actually intelligentsia Williamsburg Carles disrupt shabby chic. Butcher Schlitz fanny pack 8-bit, fingerstache occupy hoodie pug intelligentsia Carles letterpress umami organic irony.</p></div>
-				</section>
-				<section>
-					<div><p>Food truck fap next level Odd Future sartorial craft beer selvage 90's. Asymmetrical Schlitz hoodie street art jean shorts squid. Locavore street art retro skateboard banjo, post-ironic small batch keffiyeh yr +1. Selfies cardigan sriracha Terry Richardson. Godard brunch kale chips, bespoke photo booth retro Bushwick deep v farm-to-table polaroid Williamsburg. Kogi biodiesel vinyl next level intelligentsia. Skateboard Carles viral, Godard helvetica PBR butcher.</p></div>
-				</section>
-			</div>
-		</div>
-		<!-- classie.js by @desandro: https://github.com/desandro/classie -->
-		<script src="js/classie.js"></script>
-		<script src="js/cbpAnimatedHeader.min.js"></script>
-	</body>
-<footer>
-  <span>版权所有 &copy; 2014 博聪园&nbsp;&nbsp;|&nbsp;&nbsp;Design By HLDesign &nbsp;&nbsp;
-        <!--Code By <a href="http://uk.linkedin.com/in/hanlinxu/">Hanlin</a>-->
-    </span> 
-</footer>	
+                                slide_pos = (slide_pos == slide_len ? 0 : (slide_pos + 1));
+
+                                slide_cur = $(".slideshow_item:eq(" + slide_pos + ")");
+                                slide_cur.fadeIn(2000);
+
+                            }, 5000);
+
+                        });
+                    </script>
+                    <div id="slideshow" style="width:100%; height:470px; position:relative" align="center">
+                        <ul style="">
+                            <li class="slideshow_item">
+                                <img src="banner/01.jpg" alt="亲子室内活动">
+                            </li>
+                            <li class="slideshow_item">
+                                <img src="banner/02.jpg" alt="亲子运动会">
+                            </li>
+                            <li class="slideshow_item">
+                                <img src="banner/03.jpg" alt="毕业啦">
+                            </li>
+                            <li class="slideshow_item">
+                                <img src="banner/04.jpg" alt="舞蹈演出">
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <h1>欢迎来到博聪园！</h1>
+                        <p>(需要改动）宁波市北仑区博聪幼儿园成立于2006年9月，是一所自收自支、自负盈亏的民办幼儿园。全园占地4660平方米，建筑总面积3050平方米。园内各项投入按省一级标准装饰、配备。总投资600万元，其中房屋420万元，整体室内外装修120万元，购置设施设备60万元。园内设有多功能厅、科常室、美术室、幼儿图书室、幼儿浴室以及游泳池、玩沙池、动植物园地、现浇彩色塑胶地垫等现代化办园设施设备等。现有13个班级共360名幼儿，园内共有教职员工52人，专职教师持证率达到100%，是一支队伍稳定、团结向上、充满活力、富有潜质、能吃苦耐劳的优良师资队伍。我们以&#8220;为人诚实、工作踏实，教风朴实、成效卓实&#8221;的四实园训来做好各项保教工作，以&#8220;博学聪颖、强身健体&#8221;办园总目标为努力方向，在上级领导的关心支持下，在全体教职工的共同努力下，我园以灵活多样的入托形式、规范管理的保教质量、踏实严谨的朴实教风受到了家长的称赞、同行的瞩目和社会的关注。&nbsp; </p>
+                    </div>
+                </section>
+                <section id="contacts">
+                    <div>
+                        <h2><strong><font color="#4868b0" size="5">联系我们</font></strong></h2>
+                        <p>鄞州园区</p>
+                        <table width="859" height="258" border="0" align="center">
+                            <tr>
+                                <td width="300" rowspan="2"><img src="images/shiqi_contact.jpg" width="300" height="191" /></td>
+                                <td width="370"><a href="http://api.map.baidu.com/geocoder?address=博聪幼儿园&amp;output=html"><img src="images/pin.png" width="58" height="57" border="0" ></a><span class="STYLE2"> 浙江省宁波市鄞州区雅戈尔大道599号</span></td>
+                            </tr>
+                            <tr>
+                                <td height="92">电话：</td>
+                            </tr>
+                        </table>
+                        <p>北仑园区</p>
+                        <table width="859" height="258" border="0" align="center">
+                            <tr>
+                                <td width="300" rowspan="2"><img src="images/shiqi_contact.jpg" width="300" height="191" /></td>
+                                <td width="370"><a href="http://api.map.baidu.com/geocoder?address=庐山东路1098号&amp;output=html"><img src="images/pin.png" width="58" height="57" border="0" ></a><span class="STYLE2">浙江省宁波市北仑区新契庐山东路1098号</span></td>
+                            </tr>
+                            <tr>
+                                <td height="92">电话：</td>
+                            </tr>
+                        </table>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <p>鄞州园区 简介 </p>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <p>鄞州园长</p>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <p>北仑园区简介</p>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <p>北仑院长</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!-- classie.js by @desandro: https://github.com/desandro/classie -->
+        <script src="js/classie.js"></script>
+        <script src="js/cbpAnimatedHeader.js"></script>
+        <footer>
+            <div style='text-align: center; margin-left: auto; margin-right: auto;'>
+                <p>版权所有 &copy; 2014 博聪园&nbsp;&nbsp;|&nbsp;&nbsp;Design By HLDesign &nbsp;&nbsp;</p>
+                <!--Code By <a href="http://uk.linkedin.com/in/hanlinxu/">Hanlin</a>-->
+            </div>
+        </footer>
+    </body>
 </html>
