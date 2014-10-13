@@ -1,0 +1,23 @@
+Problems and to do
+
+1. Font change? 需要童真可爱字体，中文字体最好是用webfont因为载入速度快。 leo
+
+3. 园区简介里面dropdown, 两个： 鄞州园区 北仑园区  leo
+
+4. hanlin: get the kindergarten music to youku 
+
+
+Update: 
+
+90% of the content filled. Now ready for polishing. 
+
+http://www.zblogcn.com/ or WordPress can be used to edit news? Provided that we don't change anything else, can we provide a way to allow minor changes by teachers？
+
+Provided the webfont will work for the title etc. Is there 幼圆字体 for usual texts on the website? within <p>
+
+园长的话 a different font? more like human writing font?
+
+arragnement_page.html terribly needs some formatting. oh oh oh just a thought: I will find a tool to import word files to html. so that less huzzle. 
+
+Maybe we fix the annoying moving header.
+
