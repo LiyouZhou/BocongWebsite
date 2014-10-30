@@ -5,11 +5,8 @@
 	width: 100%;
 	background: #f6f6f6;
 	z-index: 10000;
-	height: 230px;
+	height: 60px;
 	overflow: visible;
-	-webkit-transition: height 0.3s;
-	-moz-transition: height 0.3s;
-	transition: height 0.3s;
 }
 
 .cbp-af-header .cbp-af-inner {
@@ -34,14 +31,14 @@
 .cbp-af-header a,
 .cbp-af-header img,
 .cbp-af-header nav a {
-	line-height: 230px;
+	line-height: 60px;
 }
 
 .cbp-af-header h1 {
-	text-transform: uppercase;
+	
 	color: #333;
 	letter-spacing: 4px;
-	font-size: 4em;
+	font-size: 3em;
 	margin: 0;
 	float: left;
 }
@@ -66,106 +63,23 @@
 
 .cbp-af-header #logo {
 	vertical-align:middle;
-	height: 87px;
+	height: 50px;
 	bottom: 6px;
 	left: 12px;
 }
 
-/* Transitions and class for reduced height */
-.cbp-af-header h1,
-.cbp-af-header a,
-.cbp-af-header img,
-.cbp-af-header nav a {
-	-webkit-transition: all 0.2s;
-	-moz-transition: all 0.2s;
-	transition: all 0.2s;
-}
-
-.cbp-af-header.cbp-af-header-shrink {
-	height: 60px;
-}
-
-.cbp-af-header.cbp-af-header-shrink h1,
-.cbp-af-header.cbp-af-header-shrink nav a {
-	line-height: 60px;
-}
-
-.cbp-af-header.cbp-af-header-shrink h1 {
-	font-size: 2em;
-}
-
-.cbp-af-header.cbp-af-header-shrink #logo {
-	height:50px;
-	vertical-align:middle;
-}
-
-/* Example Media Queries */
-@media screen and (max-width: 55em) {
-	
-	.cbp-af-header .cbp-af-inner {
-		width: 100%;
-	}
-
-	.cbp-af-header h1,
-	.cbp-af-header nav {
-		display: block;
-		margin: 0 auto;
-		text-align: center;
-		float: none;
-	}
-
-	.cbp-af-header h1,
-	.cbp-af-header nav a {
-		line-height: 115px;
-	}
-
-	.cbp-af-header nav a {
-		margin: 0 10px;
-	}
-
-	.cbp-af-header.cbp-af-header-shrink h1,
-	.cbp-af-header.cbp-af-header-shrink nav a {
-		line-height: 45px;
-	}
-
-	.cbp-af-header.cbp-af-header-shrink h1 {
-		font-size: 2em;
-	}
-
-	.cbp-af-header.cbp-af-header-shrink nav a {
-		font-size: 1em;
-	}
-}
-
-@media screen and (max-width: 32.25em) {
-	.cbp-af-header nav a {
-		font-size: 1em;
-	}
-}
-
-@media screen and (max-width: 24em) {
-	.cbp-af-header nav a,
-	.cbp-af-header.cbp-af-header-shrink nav a {
-		line-height: 1;
-	}
-}
 
 .subitems {
 	display:none;
 	position:absolute;
-    height:auto;
-    background:red;
+    height:7px;
+    background:#aaa;
 }
 
 .cbp-af-header nav a:hover + ul{
 	display:block;
-    top: 120px;
-    height:auto;
-}
-
-.cbp-af-header.cbp-af-header-shrink nav a:hover + ul{
-	display:block;
-    top: 90px;
+    top: 30px;
+    height:7px;
 }
 
 * {
@@ -179,7 +93,13 @@
 }
 
 .subitems li {
-	list-style-type: none;
+	
+	display:none;
+	position:absolute;
+	top:30px;
+	
+	
+	
 }
 
 .STYLE2 {font-family: "宋体"}
