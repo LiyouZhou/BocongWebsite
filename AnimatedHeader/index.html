@@ -1,7 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
     <head>
-        
         <meta charset="UTF-8">
         <meta name="description" content="欢迎来到博聪园!">
         <meta name="keywords" content="博聪幼儿园, 博聪, 宁波, 幼儿园, 北仑">
@@ -20,6 +19,13 @@
         <link rel="stylesheet" type="text/css" href="css/default.css">
         <link rel="stylesheet" type="text/css" href="css/component.css">
 		<link href='http://www.youziku.com/webfont/CSS/dc8eb7f6e62c0fa424fce0bf7c91260f' rel='stylesheet' type='text/css'/>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+        <!-- Latest compiled and minified JavaScript -->
+        <script type="text/javascript" src='https://code.jquery.com/jquery-1.11.1.min.js'></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
         <script src="js/modernizr.custom.js"></script>
         <script type="text/javascript"  src='https://code.jquery.com/jquery-1.11.1.min.js'></script>
         <style type="text/css">
@@ -33,31 +39,34 @@
         </style>
 </head>
     <body>
-        <div class="container">
-            <div class="cbp-af-header">
-                <div class="cbp-af-inner">
-                    <h1 style="font-family:TianZhen72492;">
-                        <span class="helper"></span>
-                        <img src="logo_green.png" id='logo' longdesc="http://www.nbbocong.com">
-                        博聪园
-                    </h1>
-					
-                    <nav>
-					
-                        <a href="#introduction">园区简介</a>
-                        <ul class='subitems'>                           
-                            <li><a href='#'>鄞州园区</a></li>
-                            <li><a href='#'>北仑园区</a></li>
-                        </ul>
-                        <a href="#news_update">新闻动态</a>
-                        <a href="#home_gallery">活动掠影</a>
-                        <a href="arrangement_page.html">学期安排</a>
-                        <a href="food_update.html">营养在线</a>
-						<a href="#admission">招生方式</a>
-                        <a href="#contacts">联系我们</a>
-                    </nav>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                  <a class="navbar-brand" href="#">
+                    <img src="logo_green.png" id='logo' width='30px' longdesc="http://www.nbbocong.com">
+                  </a>
+                    <a class="navbar-brand" href="#" style="font-family:TianZhen72492;">博聪园</a>
+                </div>
+
+                <div class='navbar-right'>
+                    <ul class="nav navbar-nav">
+                        <li class='dropdown'>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">园区简介 <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href='#'>鄞州园区</a></li>
+                                <li><a href='#'>北仑园区</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#news_update">新闻动态</a></li>
+                        <li><a href="#home_gallery">活动掠影</a></li>
+                        <li><a href="arrangement_page.html">学期安排</a></li>
+                        <li><a href="food_update.html">营养在线</a></li>
+                        <li><a href="#admission">招生方式</a></li>
+                        <li><a href="#contacts">联系我们</a></li>
+                    </ul>
                 </div>
             </div>
+        </nav>
             <div class="main">
                 <section id="home_gallery">
                     <script type="text/javascript" >
