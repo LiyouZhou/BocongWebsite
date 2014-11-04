@@ -18,7 +18,7 @@
         <link rel='Bookmark' href='favicon.ico'>
         <link rel="stylesheet" type="text/css" href="css/default.css">
         <link rel="stylesheet" type="text/css" href="css/component.css">
-		<link href='http://www.youziku.com/webfont/CSS/dc8eb7f6e62c0fa424fce0bf7c91260f' rel='stylesheet' type='text/css'/>
+        <link href='http://www.youziku.com/webfont/CSS/dc8eb7f6e62c0fa424fce0bf7c91260f' rel='stylesheet' type='text/css'/>
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
         <!-- Optional theme -->
@@ -29,25 +29,24 @@
         <script src="js/modernizr.custom.js"></script>
         <script type="text/javascript"  src='https://code.jquery.com/jquery-1.11.1.min.js'></script>
         <style type="text/css">
-<!--
-.STYLE3 {
-	font-size: small;
-	font-family: Tahoma;
-}
-.STYLE5 {color: #47a3da}
--->
+            <!--
+                .STYLE3 {
+                    font-size: small;
+                    font-family: Tahoma;
+                }
+                .STYLE5 {color: #47a3da}
+                -->
         </style>
-</head>
+    </head>
     <body>
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container-fluid">
                 <div class="navbar-header">
-                  <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="#">
                     <img src="logo_green.png" id='logo' width='30px' longdesc="http://www.nbbocong.com">
-                  </a>
+                    </a>
                     <a class="navbar-brand" href="#" style="font-family:TianZhen72492;">博聪园</a>
                 </div>
-
                 <div class='navbar-right'>
                     <ul class="nav navbar-nav">
                         <li class='dropdown'>
@@ -67,148 +66,159 @@
                 </div>
             </div>
         </nav>
-            <div class="main">
-                <section id="home_gallery">
-                    <script type="text/javascript" >
-                        /* home slide show */
+        <div class="main">
+            <section id="home_gallery">
+                <script type="text/javascript" >
+                    /* home slide show */
 
-                            var slide_pos = 0;
-                            var slide_len = 0;
+                        var slide_pos = 0;
+                        var slide_len = 0;
 
-                            $(document).ready(function() {
+                        $(document).ready(function() {
 
-                            slide_len = $(".slideshow_item").size() - 1;
+                        slide_len = $(".slideshow_item").size() - 1;
 
-                            $(".slideshow_item:gt(0)").hide();
+                        $(".slideshow_item:gt(0)").hide();
 
-                            slide_int = setInterval(function() {
+                        slide_int = setInterval(function() {
 
-                                slide_cur = $(".slideshow_item:eq(" + slide_pos + ")");
-                                slide_cur.fadeOut(2000);
+                            slide_cur = $(".slideshow_item:eq(" + slide_pos + ")");
+                            slide_cur.fadeOut(2000);
 
-                                slide_pos = (slide_pos == slide_len ? 0 : (slide_pos + 1));
+                            slide_pos = (slide_pos == slide_len ? 0 : (slide_pos + 1));
 
-                                slide_cur = $(".slideshow_item:eq(" + slide_pos + ")");
-                                slide_cur.fadeIn(2000);
+                            slide_cur = $(".slideshow_item:eq(" + slide_pos + ")");
+                            slide_cur.fadeIn(2000);
 
-                            }, 5000);
+                        }, 5000);
 
-                        });
-                    </script>
-                    <div id="slideshow" align="center">
-                        <ul style="">
-                            <li class="slideshow_item">
-                                <img src="banner/01.jpg" alt="亲子室内活动">
-                            </li>
-                            <li class="slideshow_item">
-                                <img src="banner/02.jpg" alt="亲子运动会">
-                            </li>
-                            <li class="slideshow_item">
-                                <img src="banner/03.jpg" alt="毕业啦">
-                            </li>
-                            <li class="slideshow_item">
-                                <img src="banner/04.jpg" alt="舞蹈演出">
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-                <section>
-                    <div>
-                        <h2>欢迎来到博聪园！</h2>
-                        <p>(需要改动）宁波市北仑区博聪幼儿园成立于2006年9月，是一所自收自支、自负盈亏的民办幼儿园。全园占地4660平方米，建筑总面积3050平方米。园内各项投入按省一级标准装饰、配备。总投资600万元，其中房屋420万元，整体室内外装修120万元，购置设施设备60万元。园内设有多功能厅、科常室、美术室、幼儿图书室、幼儿浴室以及游泳池、玩沙池、动植物园地、现浇彩色塑胶地垫等现代化办园设施设备等。现有13个班级共360名幼儿，园内共有教职员工52人，专职教师持证率达到100%，是一支队伍稳定、团结向上、充满活力、富有潜质、能吃苦耐劳的优良师资队伍。我们以&#8220;为人诚实、工作踏实，教风朴实、成效卓实&#8221;的四实园训来做好各项保教工作，以&#8220;博学聪颖、强身健体&#8221;办园总目标为努力方向，在上级领导的关心支持下，在全体教职工的共同努力下，我园以灵活多样的入托形式、规范管理的保教质量、踏实严谨的朴实教风受到了家长的称赞、同行的瞩目和社会的关注。&nbsp; </p>
-                    </div>
-                </section>
-				
-				<section id="news_update">
-                    <div>
-                        <h2>新闻动态</h2>
-                        <p>开学啦微信啦！！ </p>
-                    </div>
-                </section>
-               
-                <section id="introduction">
-                    <div>
-                        <h2>园区简介</h2>
-                        <p>&nbsp;</p>
-                        <table width="1074" border="0" align="center">
-                          <tr>
-                            <td height="49" colspan="2" align="center"><h3>鄞州园区</h3></td>
-                          </tr>
-                          <tr>
-                            <td width="1068"><p class="STYLE3" ><img src="images/shiqi_contact.jpg" width="341" height="201" hspace="10" /style=float:left>宁波市鄞州区博聪幼儿园位于雅戈尔大道与鄞州大道交叉路口。是一所民办性质的股份制幼儿园。最早创建于1996宁波市江东区太古城内。由原宁波市民办幼儿园协会会长徐琴老师一手创立。以寄宿制为主，并首创了加时托性质的入托方式。园内设有后勤园长，专门负责对幼儿园菜谱制定，菜品打量，营养分析，科学制单等一系列针对全托、加时托幼儿一日所需营养的供应。我们幼儿园也开展了洪恩英语，洪恩阅读，双语系列教学；中班以上幼儿，有选修课程：国画、围棋、拉丁舞、蜡笔画、跆拳道、泥塑、钢琴以及小提琴班。我们聘请专业的老师来园进行教学，满足不同孩子兴趣爱好。幼儿园的园所是按照浙江省五星级幼儿园配置，活动室宽敞，寝室温馨，各类教学仪器先进，还有各类棋牌室、乒乓球室、儿童影院，丰富全托小朋友的课余生活，让孩子们在园也能感受到家的温馨。 </p>                            </td>
-                          </tr>
-                          <tr>
-                            <td height="749" colspan="2"><div align="center"><img src="images/Yinzhou_Lijie.png" width="300" height="318" align="absmiddle" /></div>
-                              <p>园长的话：                              </p>
-                            <p >孩子是我们的希望和未来。&#160;关注孩子是否每一天快乐，是否幸福，是否自信，是否有成就感，比关注孩子每一天学到什么更重要！让孩子身心愉悦的老师就是好老师，让孩子身心愉悦的幼儿园是好的幼儿园。 </p></td>
-                          </tr>
-                        </table>
-                        <p>&nbsp;</p>
-                        <table width="1076" border="0" align="center">
-                          <tr>
-                            <td colspan="2" align="center"><h3>北仑园区</h3></td>
-                          </tr>
-                          <tr>
-                            <td height="524" colspan="2"><p >博聪幼儿园，经过近6年的拼搏和努力，已深深地扎根北仑，成为北仑区每晚加时托办园特色一颗璀璨独特的夜明星。看，这支拥有&nbsp;&#8220;亲其师而信其道&#8221;&nbsp;美誉的41名保教队伍，她们勇于舍弃自我，无悔无怨地哺育涤荡着280名幼小心灵，努力带领孩子们实现&#8220;博学聪颖、强身健体&#8221;的办园目标，通过健康体艺、幼小衔接等诸多特色课程，博聪娃们如一朵朵娇艳的鲜花绽开怒放，开满我园，香在校园！&#8220;博聪园没有流眼泪的孩子，没有流鼻涕的孩子，没有露肚脐的孩子。&#8221; 而早中晚花色众多、优质足量的&#8220;三餐三点&#8221;更是博聪园一道亮丽的风景。博聪人以实际行动将真爱洒向占地4660平米、建筑3050平米的每个角落，举办者摒弃投资600万元的回报初衷，将实惠与真爱回报孩子、家长和社会。为孩子付出所尽所能，将是博聪永恒的主题！&nbsp; </p>
+                    });
+                </script>
+                <div id="slideshow" align="center">
+                    <ul style="">
+                        <li class="slideshow_item">
+                            <img src="banner/01.jpg" alt="亲子室内活动">
+                        </li>
+                        <li class="slideshow_item">
+                            <img src="banner/02.jpg" alt="亲子运动会">
+                        </li>
+                        <li class="slideshow_item">
+                            <img src="banner/03.jpg" alt="毕业啦">
+                        </li>
+                        <li class="slideshow_item">
+                            <img src="banner/04.jpg" alt="舞蹈演出">
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h2>欢迎来到博聪园！</h2>
+                    <p>(需要改动）宁波市北仑区博聪幼儿园成立于2006年9月，是一所自收自支、自负盈亏的民办幼儿园。全园占地4660平方米，建筑总面积3050平方米。园内各项投入按省一级标准装饰、配备。总投资600万元，其中房屋420万元，整体室内外装修120万元，购置设施设备60万元。园内设有多功能厅、科常室、美术室、幼儿图书室、幼儿浴室以及游泳池、玩沙池、动植物园地、现浇彩色塑胶地垫等现代化办园设施设备等。现有13个班级共360名幼儿，园内共有教职员工52人，专职教师持证率达到100%，是一支队伍稳定、团结向上、充满活力、富有潜质、能吃苦耐劳的优良师资队伍。我们以&#8220;为人诚实、工作踏实，教风朴实、成效卓实&#8221;的四实园训来做好各项保教工作，以&#8220;博学聪颖、强身健体&#8221;办园总目标为努力方向，在上级领导的关心支持下，在全体教职工的共同努力下，我园以灵活多样的入托形式、规范管理的保教质量、踏实严谨的朴实教风受到了家长的称赞、同行的瞩目和社会的关注。&nbsp; </p>
+                </div>
+            </section>
+            <section id="news_update">
+                <div>
+                    <h2>新闻动态</h2>
+                    <p>开学啦微信啦！！ </p>
+                </div>
+            </section>
+            <section id="introduction">
+                <div>
+                    <h2>园区简介</h2>
+                    <p>&nbsp;</p>
+                    <table width="1074" border="0" align="center">
+                        <tr>
+                            <td height="49" colspan="2" align="center">
+                                <h3>鄞州园区</h3>
                             </td>
-                          </tr>
-                          <tr>
-                            <td width="261" height="405"><p>&nbsp;</p>
-                            <p align="center"><img src="images/Beilun_Zhangjiuwei.png" width="300" height="318" align="middle" /></p></td>
-                            <td width="805">园长的话：
-                              <p >奉献是我们的天职，和孩子们一起成长是我们永远做不完的梦。在博聪园这片快乐的土地上，充满着希望、欢歌笑语、追逐嬉戏，天真活泼的孩子犹如一只只可爱的小鸟&#8230;&#8230;他们需要精心地呵护，需要一个自由的空间。作为园长，我愿同你们一起为孩子的成长搭一方平台，让祖国的未来享受更多成长的关爱，让孩子们在爱的阳光下，启心智之门，雅情趣之源，扬求知之风帆，做成功之真人，在这里：我愿与每一位期待中的家长共识：您的孩子是优秀的，您的孩子将更卓越！我愿与每一位细心的员工共勉：为愉快、健康和成长奠基的是艰辛与努力！我愿与每一位幸福的孩子相约：今天是美好的，明天会更精彩！让我们一起走近孩子、理解孩子、倾听孩子、欣赏孩子、鼓励孩子。愿我们在这片凝聚爱意、放飞希望的地方，手拉着手，心连着心，以浪漫的姿态，去呼吸现代教育的精髓，让每个孩子在我们博聪园都拥有最佳的人生开端！愿博聪幼儿园的明天更加辉煌灿烂！ </p>
+                        </tr>
+                        <tr>
+                            <td width="1068">
+                                <p class="STYLE3" ><img src="images/shiqi_contact.jpg" width="341" height="201" hspace="10" /style=float:left>宁波市鄞州区博聪幼儿园位于雅戈尔大道与鄞州大道交叉路口。是一所民办性质的股份制幼儿园。最早创建于1996宁波市江东区太古城内。由原宁波市民办幼儿园协会会长徐琴老师一手创立。以寄宿制为主，并首创了加时托性质的入托方式。园内设有后勤园长，专门负责对幼儿园菜谱制定，菜品打量，营养分析，科学制单等一系列针对全托、加时托幼儿一日所需营养的供应。我们幼儿园也开展了洪恩英语，洪恩阅读，双语系列教学；中班以上幼儿，有选修课程：国画、围棋、拉丁舞、蜡笔画、跆拳道、泥塑、钢琴以及小提琴班。我们聘请专业的老师来园进行教学，满足不同孩子兴趣爱好。幼儿园的园所是按照浙江省五星级幼儿园配置，活动室宽敞，寝室温馨，各类教学仪器先进，还有各类棋牌室、乒乓球室、儿童影院，丰富全托小朋友的课余生活，让孩子们在园也能感受到家的温馨。 </p>
                             </td>
-                          </tr>
-                        </table>
-                        <p>&nbsp;</p>
-                        <p>&nbsp;</p>
-                    </div>
-                </section>
-
-                <section id="admission">
-                  <div>
-                        <h2>招生方式</h2>
-                        <p>&nbsp;</p>
-                        <p><ul>
-                          <li>入托形式：除我园原有的寄宿制、加时托制入托形式。 </li>
-                          <li>招生计划：招收面向全大市范围内的新中大班，每班25-30名左右。小班、小小班每班20&#8212;25名左右。 </li>
-                          <li>特色课程：除规定的五大领域课程外，根据幼儿在园时间的长短，适时安排幼儿其他特色的游戏、课程等，详情现场咨询。 </li>
-                          <li>入托时间：全托周一至周五间的24小时入托制，加时托每日7:00----19:00的七进七出入托制。 </li>
-                          <li>招生对象：凡截止到8月底前出生的2周岁以上幼儿均可报名、 </li>
-                          <li>招生流程： </li>
-                          <li>报名流程：参观咨询-------报名登记--------预交费用---------录取编班----------入园体检-------------教师家访---------提前入园---------正式入学。 </li>
-                          <li>所需材料：户口本复印件、免疫接种卡复印件、出生证明、幼儿近期一寸照一张。 </li>
-                          <li>收费标准：全托1800元/月，加时托1400元/月。 </li>
-                          <li>报名地址：雅戈尔大道599号&nbsp;&nbsp;公交103、130、132、623、626、627、634、637、638到达34省道鄞州大道口。 </li>
-                          </ul>
-                        </p>
-                  </div>
-                </section>
-                
-				 <section id="contacts">
-                    <div>
-                        <h2>联系我们</h2>
-                        <p><img src="images/qrcode.jpg" width="258" height="258" /></p>
-                        <p>鄞州园区</p>
-                        <table width="859" height="258" border="0" align="center">
-                            <tr>
-                                <td height="92"><p><a href="http://api.map.baidu.com/geocoder?address=博聪幼儿园&amp;output=html"><img src="images/pin2.jpg" width="58" height="57" border="0" ></a><span class="STYLE2"> 浙江省宁波市鄞州区雅戈尔大道599号</span></p>
-                                <p>电话：88138185&nbsp;&nbsp;13566051265</p></td>
-                            </tr>
-                        </table>
-                        <p>北仑园区</p>
-                        <table width="859" height="258" border="0" align="center">
-                            <tr>
-                                <td width="300" rowspan="2"><img src="images/shiqi_contact.jpg" width="300" height="191" /></td>
-                                <td width="370"><a href="http://api.map.baidu.com/geocoder?address=庐山东路1098号&amp;output=html"><img src="images/pin2.jpg" width="58" height="57" border="0" ></a><span class="STYLE2">浙江省宁波市北仑区新契庐山东路1098号</span></td>
-                            </tr>
-                            <tr>
-                                <td height="92">电话：86803263&nbsp;&nbsp;&nbsp;15968441079</td>
-                            </tr>
-                        </table>
-                    </div>
-                </section>
-            </div>
+                        </tr>
+                        <tr>
+                            <td height="749" colspan="2">
+                                <div align="center"><img src="images/Yinzhou_Lijie.png" width="300" height="318" align="absmiddle" /></div>
+                                <p>园长的话：                              </p>
+                                <p >孩子是我们的希望和未来。&#160;关注孩子是否每一天快乐，是否幸福，是否自信，是否有成就感，比关注孩子每一天学到什么更重要！让孩子身心愉悦的老师就是好老师，让孩子身心愉悦的幼儿园是好的幼儿园。 </p>
+                            </td>
+                        </tr>
+                    </table>
+                    <p>&nbsp;</p>
+                    <table width="1076" border="0" align="center">
+                        <tr>
+                            <td colspan="2" align="center">
+                                <h3>北仑园区</h3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="524" colspan="2">
+                                <p >博聪幼儿园，经过近6年的拼搏和努力，已深深地扎根北仑，成为北仑区每晚加时托办园特色一颗璀璨独特的夜明星。看，这支拥有&nbsp;&#8220;亲其师而信其道&#8221;&nbsp;美誉的41名保教队伍，她们勇于舍弃自我，无悔无怨地哺育涤荡着280名幼小心灵，努力带领孩子们实现&#8220;博学聪颖、强身健体&#8221;的办园目标，通过健康体艺、幼小衔接等诸多特色课程，博聪娃们如一朵朵娇艳的鲜花绽开怒放，开满我园，香在校园！&#8220;博聪园没有流眼泪的孩子，没有流鼻涕的孩子，没有露肚脐的孩子。&#8221; 而早中晚花色众多、优质足量的&#8220;三餐三点&#8221;更是博聪园一道亮丽的风景。博聪人以实际行动将真爱洒向占地4660平米、建筑3050平米的每个角落，举办者摒弃投资600万元的回报初衷，将实惠与真爱回报孩子、家长和社会。为孩子付出所尽所能，将是博聪永恒的主题！&nbsp; </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="261" height="405">
+                                <p>&nbsp;</p>
+                                <p align="center"><img src="images/Beilun_Zhangjiuwei.png" width="300" height="318" align="middle" /></p>
+                            </td>
+                            <td width="805">
+                                园长的话：
+                                <p >奉献是我们的天职，和孩子们一起成长是我们永远做不完的梦。在博聪园这片快乐的土地上，充满着希望、欢歌笑语、追逐嬉戏，天真活泼的孩子犹如一只只可爱的小鸟&#8230;&#8230;他们需要精心地呵护，需要一个自由的空间。作为园长，我愿同你们一起为孩子的成长搭一方平台，让祖国的未来享受更多成长的关爱，让孩子们在爱的阳光下，启心智之门，雅情趣之源，扬求知之风帆，做成功之真人，在这里：我愿与每一位期待中的家长共识：您的孩子是优秀的，您的孩子将更卓越！我愿与每一位细心的员工共勉：为愉快、健康和成长奠基的是艰辛与努力！我愿与每一位幸福的孩子相约：今天是美好的，明天会更精彩！让我们一起走近孩子、理解孩子、倾听孩子、欣赏孩子、鼓励孩子。愿我们在这片凝聚爱意、放飞希望的地方，手拉着手，心连着心，以浪漫的姿态，去呼吸现代教育的精髓，让每个孩子在我们博聪园都拥有最佳的人生开端！愿博聪幼儿园的明天更加辉煌灿烂！ </p>
+                            </td>
+                        </tr>
+                    </table>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                </div>
+            </section>
+            <section id="admission">
+                <div>
+                    <h2>招生方式</h2>
+                    <p>&nbsp;</p>
+                    <p>
+                    <ul>
+                        <li>入托形式：除我园原有的寄宿制、加时托制入托形式。 </li>
+                        <li>招生计划：招收面向全大市范围内的新中大班，每班25-30名左右。小班、小小班每班20&#8212;25名左右。 </li>
+                        <li>特色课程：除规定的五大领域课程外，根据幼儿在园时间的长短，适时安排幼儿其他特色的游戏、课程等，详情现场咨询。 </li>
+                        <li>入托时间：全托周一至周五间的24小时入托制，加时托每日7:00----19:00的七进七出入托制。 </li>
+                        <li>招生对象：凡截止到8月底前出生的2周岁以上幼儿均可报名、 </li>
+                        <li>招生流程： </li>
+                        <li>报名流程：参观咨询-------报名登记--------预交费用---------录取编班----------入园体检-------------教师家访---------提前入园---------正式入学。 </li>
+                        <li>所需材料：户口本复印件、免疫接种卡复印件、出生证明、幼儿近期一寸照一张。 </li>
+                        <li>收费标准：全托1800元/月，加时托1400元/月。 </li>
+                        <li>报名地址：雅戈尔大道599号&nbsp;&nbsp;公交103、130、132、623、626、627、634、637、638到达34省道鄞州大道口。 </li>
+                    </ul>
+                    </p>
+                </div>
+            </section>
+            <section id="contacts">
+                <div>
+                    <h2>联系我们</h2>
+                    <p><img src="images/qrcode.jpg" width="258" height="258" /></p>
+                    <p>鄞州园区</p>
+                    <table width="859" height="258" border="0" align="center">
+                        <tr>
+                            <td height="92">
+                                <p><a href="http://api.map.baidu.com/geocoder?address=博聪幼儿园&amp;output=html"><img src="images/pin2.jpg" width="58" height="57" border="0" ></a><span class="STYLE2"> 浙江省宁波市鄞州区雅戈尔大道599号</span></p>
+                                <p>电话：88138185&nbsp;&nbsp;13566051265</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <p>北仑园区</p>
+                    <table width="859" height="258" border="0" align="center">
+                        <tr>
+                            <td width="300" rowspan="2"><img src="images/shiqi_contact.jpg" width="300" height="191" /></td>
+                            <td width="370"><a href="http://api.map.baidu.com/geocoder?address=庐山东路1098号&amp;output=html"><img src="images/pin2.jpg" width="58" height="57" border="0" ></a><span class="STYLE2">浙江省宁波市北仑区新契庐山东路1098号</span></td>
+                        </tr>
+                        <tr>
+                            <td height="92">电话：86803263&nbsp;&nbsp;&nbsp;15968441079</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+        </div>
         </div>
         <!-- classie.js by @desandro: https://github.com/desandro/classie -->
         <script src="js/classie.js"></script>
