@@ -110,5 +110,6 @@
 }
 
 body {
-  position: relative;
+  position: relative; /* required for navbar to track the scrolling position */
+  padding-top: 70px; /* leave room for navbar */
 }
