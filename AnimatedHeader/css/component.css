@@ -104,8 +104,11 @@
 
 .STYLE2 {font-family: "宋体"}
 
-
 #slideshow {
     height:500px;
     position:relative;
+}
+
+body {
+  position: relative;
 }

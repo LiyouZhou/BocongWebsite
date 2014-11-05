@@ -38,7 +38,8 @@
                 -->
         </style>
     </head>
-    <body>
+    <body data-spy='scroll' data-target="#data-spy-list">
+
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -47,21 +48,21 @@
                     </a>
                     <a class="navbar-brand" href="#" style="font-family:TianZhen72492;">博聪园</a>
                 </div>
-                <div class='navbar-right'>
+                <div class='navbar-right' id="data-spy-list">
                     <ul class="nav navbar-nav">
+                        <li><a href="#home_gallery">活动掠影</a></li>
+                        <li><a href="#news_update">新闻动态</a></li>
                         <li class='dropdown'>
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">园区简介 <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href='#'>鄞州园区</a></li>
-                                <li><a href='#'>北仑园区</a></li>
+                                <li><a href='#yinzhou'>鄞州园区</a></li>
+                                <li><a href='#beilun'>北仑园区</a></li>
                             </ul>
                         </li>
-                        <li><a href="#news_update">新闻动态</a></li>
-                        <li><a href="#home_gallery">活动掠影</a></li>
-                        <li><a href="arrangement_page.html">学期安排</a></li>
-                        <li><a href="food_update.html">营养在线</a></li>
                         <li><a href="#admission">招生方式</a></li>
                         <li><a href="#contacts">联系我们</a></li>
+                        <li><a href="arrangement_page.html">学期安排</a></li>
+                        <li><a href="food_update.html">营养在线</a></li>
                     </ul>
                 </div>
             </div>
@@ -130,7 +131,7 @@
                     <table width="1074" border="0" align="center">
                         <tr>
                             <td height="49" colspan="2" align="center">
-                                <h3>鄞州园区</h3>
+                                <h3 id='yinzhou'>鄞州园区</h3>
                             </td>
                         </tr>
                         <tr>
@@ -150,7 +151,7 @@
                     <table width="1076" border="0" align="center">
                         <tr>
                             <td colspan="2" align="center">
-                                <h3>北仑园区</h3>
+                                <h3 id='beilun'>北仑园区</h3>
                             </td>
                         </tr>
                         <tr>
