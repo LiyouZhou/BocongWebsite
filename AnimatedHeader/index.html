@@ -40,14 +40,21 @@
     <body data-spy='scroll' data-target="#data-spy-list">
 
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container-fluid">
+            <div class="container-fluid" style='max-width:1000px'>
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#">
                     <img src="logo_green.png" id='logo' width='30px' longdesc="http://www.nbbocong.com">
                     </a>
                     <a class="navbar-brand" href="#" style="font-family:TianZhen72492;">博聪园</a>
+                    <!-- collapse the menu when on small screens. This button is used to expand menu -->
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-items">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                 </div>
-                <div class='navbar-right' id="data-spy-list">
+                <div class='collapse navbar-collapse navbar-right' id='menu-items'>
                     <ul class="nav navbar-nav">
                         <li><a href="#home_gallery">活动掠影</a></li>
                         <li><a href="#news_update">新闻动态</a></li>
@@ -66,6 +73,7 @@
                 </div>
             </div>
         </nav>
+
         <div class="main">
             <section id="home_gallery">
                 <div id="bootstrap-carousel-slideshow" class="carousel slide" data-ride="carousel" style='padding: 0px'>
@@ -217,9 +225,6 @@
             </section>
         </div>
         </div>
-        <!-- classie.js by @desandro: https://github.com/desandro/classie -->
-        <script src="js/classie.js"></script>
-        <script src="js/cbpAnimatedHeader.js"></script>
         <footer>
             <div class="STYLE5" style='text-align: center; margin-left: auto; margin-right: auto;'>
                 <p>版权所有 &copy; 2014 博聪园&nbsp;&nbsp;|&nbsp;<a href="http://www.miitbeian.gov.cn" class="STYLE5">浙ICP备 14036058号</a> | Design By HLDesign &nbsp;&nbsp;</p>
