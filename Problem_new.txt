@@ -1,23 +1,32 @@
 Problems and to do
 
-1. Font change? ĞèÒªÍ¯Õæ¿É°®×ÖÌå£¬ÖĞÎÄ×ÖÌå×îºÃÊÇÓÃwebfontÒòÎªÔØÈëËÙ¶È¿ì¡£ leo
+hanlin: get the kindergarten music to youku
 
-3. Ô°Çø¼ò½éÀïÃædropdown, Á½¸ö£º Û´ÖİÔ°Çø ±±ÂØÔ°Çø  leo
+http://www.zblogcn.com/ or WordPress can be used to edit news? Provided that we don't change anything else, can we provide a way to allow minor changes by teachers.
 
-4. hanlin: get the kindergarten music to youku 
+Provided the webfont will work for the title etc. Is there for usual texts on the website? within <p> <----Can be done through css but carefully
 
+arragnement_page.html terribly needs some formatting. oh oh oh just a thought: I will find a tool to import word files to html. so that less huzzle. (Have a look at markdown format not exactly word but more html friendly)
 
-Update: 
+å­¦æœŸå®‰æ’ å’Œ è¥å…»åœ¨çº¿ can be implimented using http://getbootstrap.com/javascript/#modals
 
-90% of the content filled. Now ready for polishing. 
+The whole page was offset by 50px to accomondate the fixed navbar. But the links didn't get moves. Should reimpliment links using <a> elements and do this http://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header
 
-http://www.zblogcn.com/ or WordPress can be used to edit news? Provided that we don't change anything else, can we provide a way to allow minor changes by teachers£¿
+The <p> element format should have more thought.
 
-Provided the webfont will work for the title etc. Is there Ó×Ô²×ÖÌå for usual texts on the website? within <p>
+fill with more pictures less words.
 
-Ô°³¤µÄ»° a different font? more like human writing font?
+nicer pictures
 
-arragnement_page.html terribly needs some formatting. oh oh oh just a thought: I will find a tool to import word files to html. so that less huzzle. 
+The font sizes should be adjusted.
 
-Maybe we fix the annoying moving header.
+Fill out the news items.
+
+The header still jumps a little when I scroll. Investigate.....
+
+Remove all the unnecessary files in the repo
+
+Remove all unnecessary CSS lines
+
+Find a way to update news very easily (Could link to weixin etc..)
 
