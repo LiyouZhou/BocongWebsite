@@ -1,27 +1,30 @@
 .cbp-af-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: #f6f6f6;
-    z-index: 10000;
-    height: 60px;
-    overflow: visible;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #f6f6f6;
+	z-index: 10000;
+	height: 230px;
+	overflow: visible;
+	-webkit-transition: height 0.3s;
+	-moz-transition: height 0.3s;
+	transition: height 0.3s;
 }
 
 .cbp-af-header .cbp-af-inner {
-    width: 90%;
-    max-width: 69em;
-    margin: 0 auto;
-    padding: 0 1.875em;
+	width: 90%;
+	max-width: 69em;
+	margin: 0 auto;
+	padding: 0 1.875em;
 }
 
 .cbp-af-header h1,
 .cbp-af-header a,
 .cbp-af-header img,
 .cbp-af-header nav {
-    display: inline-block;
-    position: relative;
+	display: inline-block;
+	position: relative;
 }
 
 
@@ -31,59 +34,142 @@
 .cbp-af-header a,
 .cbp-af-header img,
 .cbp-af-header nav a {
-    line-height: 60px;
+	line-height: 230px;
 }
 
 .cbp-af-header h1 {
-
-    color: #333;
-    letter-spacing: 4px;
-    font-size: 3em;
-    margin: 0;
-    float: left;
+	text-transform: uppercase;
+	color: #333;
+	letter-spacing: 4px;
+	font-size: 4em;
+	margin: 0;
+	float: left;
 }
 
 .cbp-af-header nav {
-    float: right;
+	float: right;
 }
 
 .cbp-af-header nav a {
-    color: #aaa;
-    font-weight: 700;
-    font-size: 1.4em;
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-left: 5px;
+	color: #aaa;
+	font-weight: 700;
+	font-size: 1.4em;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 5px;
 }
 
 .cbp-af-header nav a:hover {
-    color: #333;
+	color: #333;
 }
 
 .cbp-af-header #logo {
-    vertical-align:middle;
-    height: 50px;
-    bottom: 6px;
-    left: 12px;
+	vertical-align:middle;
+	height: 87px;
+	bottom: 6px;
+	left: 12px;
 }
 
+/* Transitions and class for reduced height */
+.cbp-af-header h1,
+.cbp-af-header a,
+.cbp-af-header img,
+.cbp-af-header nav a {
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.cbp-af-header.cbp-af-header-shrink {
+	height: 60px;
+}
+
+.cbp-af-header.cbp-af-header-shrink h1,
+.cbp-af-header.cbp-af-header-shrink nav a {
+	line-height: 60px;
+}
+
+.cbp-af-header.cbp-af-header-shrink h1 {
+	font-size: 2em;
+}
+
+.cbp-af-header.cbp-af-header-shrink #logo {
+	height:50px;
+	vertical-align:middle;
+}
+
+/* Example Media Queries */
+@media screen and (max-width: 55em) {
+	
+	.cbp-af-header .cbp-af-inner {
+		width: 100%;
+	}
+
+	.cbp-af-header h1,
+	.cbp-af-header nav {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		float: none;
+	}
+
+	.cbp-af-header h1,
+	.cbp-af-header nav a {
+		line-height: 115px;
+	}
+
+	.cbp-af-header nav a {
+		margin: 0 10px;
+	}
+
+	.cbp-af-header.cbp-af-header-shrink h1,
+	.cbp-af-header.cbp-af-header-shrink nav a {
+		line-height: 45px;
+	}
+
+	.cbp-af-header.cbp-af-header-shrink h1 {
+		font-size: 2em;
+	}
+
+	.cbp-af-header.cbp-af-header-shrink nav a {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 32.25em) {
+	.cbp-af-header nav a {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 24em) {
+	.cbp-af-header nav a,
+	.cbp-af-header.cbp-af-header-shrink nav a {
+		line-height: 1;
+	}
+}
 
 .subitems {
-    display:none;
-    position:absolute;
-    height:7px;
-    background:#aaa;
+	display:none;
+	position:absolute;
+    height:auto;
+    background:red;
 }
 
 .cbp-af-header nav a:hover + ul{
-    display:block;
-    top: 30px;
-    height:7px;
+	display:block;
+    top: 120px;
+    height:auto;
+}
+
+.cbp-af-header.cbp-af-header-shrink nav a:hover + ul{
+	display:block;
+    top: 90px;
 }
 
 * {
-    font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
+	font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
 }
 
 .helper {
@@ -93,23 +179,13 @@
 }
 
 .subitems li {
-
-    display:none;
-    position:absolute;
-    top:30px;
-
-
-
+	list-style-type: none;
 }
 
 .STYLE2 {font-family: "宋体"}
 
-#slideshow {
-    height:500px;
-    position:relative;
-}
 
-body {
-  position: relative; /* required for navbar to track the scrolling position */
-  padding-top: 70px; /* leave room for navbar */
+#slideshow {
+	height:500px;
+	position:relative;
 }
